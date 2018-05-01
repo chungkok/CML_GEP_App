@@ -1,2 +1,2 @@
-# Chronic Myeloid Leukaemia gene expression app
+# Chronic myeloid leukaemia gene expression app
 CML gene expression app
