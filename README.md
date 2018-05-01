@@ -35,9 +35,10 @@ biocLite("limma")
 ```
 
 ## Instruction of running the visualisation product (R shiny dashboard)
-1. The user requires to unzip the folder and set to the targeted directory in Rstudio or R. 
-2. Prior to run the app, the user must have all the R packages mentioned above installed. 
-3. Then the user could type `shiny::runApp()` to start the app.
+1. Download the R source code [here (https://github.com/chungkok/CML_GEP_App)](https://github.com/chungkok/CML_GEP_App)
+2. The user requires to unzip the folder and set to the targeted directory in Rstudio or R. 
+3. Prior to run the app, the user must have all the R packages mentioned above installed. 
+4. Then the user could type `shiny::runApp()` to start the app.
 
 ## Things to note
 Best view with wide screen and with at least 8GB RAM pc or mac (23776 genes to be explored). Most figures or plots can be zoom in and out, download as png format (except for 3D scatterplot), pan, and rotation (for multidimensional plot). The toolbar will be appeared when hover to the image/plot on the top right corner (small icons).
