@@ -9,6 +9,8 @@ The aim and motivation of this project was to identify gene expression that were
 ## Data source
 Public repository database, NCBI sequence read archive ([SRA](https://www.ncbi.nlm.nih.gov/sra)), was used to identify a BC-CML dataset with an accession number [SRP028528](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP028528). There were 9 BC-CML and 8 CP-CML patient samples in this dataset. 
 
+Gene interaction network datasets based on three different experiments were downloaded from the [human interactome database](http://interactome.dfci.harvard.edu/H_sapiens/index.php). They were HI-II-14 (~14000 interactions), Lit-BM-13 (~11000 interactions) and Yu-11 (~1200 interactions).
+
 ## R shiny dashboard visualisation product
 ### R packages installation requirement
 * shinydashboard
