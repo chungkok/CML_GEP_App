@@ -27,7 +27,9 @@ Public repository database, NCBI sequence read archive ([SRA](https://www.ncbi.n
 ## Example of installing above R packages
 ```r
 # install CRAN packages
-install.packages(c("shinydashboard", "DT", "shiny", "ggplot2", "gplots", "tidyverse", "heatmaply", "RColorBrewer", "plotly", "networkD3", "igraph"))
+install.packages(c("shinydashboard", "DT", "shiny", "ggplot2", "gplots", 
+                   "tidyverse", "heatmaply", "RColorBrewer", "plotly", 
+                   "networkD3", "igraph"))
 
 # install bioconductor package (https://bioconductor.org)
 source("http://bioconductor.org/biocLite.R") 
