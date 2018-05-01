@@ -26,18 +26,18 @@ Public repository database, NCBI sequence read archive ([SRA](https://www.ncbi.n
 
 ## Example of installing above R packages
 ```r
-# install CRAN packages
+# install required packages
 install.packages(c("shinydashboard", "DT", "shiny", "ggplot2", "gplots", 
                    "tidyverse", "heatmaply", "RColorBrewer", "plotly", 
                    "networkD3", "igraph"))
 
-# install bioconductor package (https://bioconductor.org)
+# install required bioconductor package (https://bioconductor.org)
 source("http://bioconductor.org/biocLite.R") 
 biocLite("limma")
 ```
 
 ## Instruction of running the visualisation product (R shiny dashboard)
-1. Download the R source code here [(https://github.com/chungkok/CML_GEP_App)](https://github.com/chungkok/CML_GEP_App)
+1. Download the *R* source code here [(https://github.com/chungkok/CML_GEP_App)](https://github.com/chungkok/CML_GEP_App)
 2. The user requires to unzip the folder and set to the targeted directory in Rstudio or R. 
 3. Prior to run the app, the user must have all the R packages mentioned above installed. 
 4. Then the user could type `shiny::runApp()` to start the app.
